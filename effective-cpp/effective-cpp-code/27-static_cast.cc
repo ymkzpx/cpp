@@ -19,7 +19,7 @@ class C {
 int main()
 {
     A *a = new A();
-    C *b = static_cast<C *>(a);
-    // b->print();
+    B *b = static_cast<B*>(a);
+    b->print();
     return 0;
 }
